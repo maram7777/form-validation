@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+input [type=text],[id]{
+    text-align: center;
+}
+input[type=submit]{
+    width:95px;
+    height:43px;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+
+    background :#C0C0C0;}
+    h1{
+        background: #00cc99;
+        text-align: center;
+        font-size:38px;
+        padding:20px 1em;
+        font-weight: bold;
+        margin-left: 35%;
+        margin-right: 35%;
+        cursor: pointer;
+        font-family: 'Times New Roman';
+    }

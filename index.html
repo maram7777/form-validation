@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form Validation</title>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <h1>register with us</h1>
+    <div id="error"></div>
+  <form id="form" action="/" method="GET">
+    <div>
+      <label for="username:">username</label>
+      <input type="text" id="username" name="username" placeholder="enter username" ><br><br>
+      
+    </div>
+      
+    <div>
+      <label for="mail:">mail</label>
+      <input type="text" id="mail" name="mmail" placeholder="Enter email" onblur="validateEmail(this)"><br><br>
+
+    </div>
+     
+    <div>
+      <label for="password:">password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" onblur="verifMail(this)"><br><br>
+    </div>
+     
+    <div>
+      <label for="confirm password:">confirm password</label>
+      <input id="password2" placeholder="enter password again" required><br><br>
+    </div>
+
+      
+    <button type="submit">submit form</button>
+      
+    
+  </form>
+ 
+</body>
+</html>
